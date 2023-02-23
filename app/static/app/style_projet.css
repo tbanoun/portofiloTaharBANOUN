@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+    color: #71496C;
+}
+.projet_details{
+    border-radius: 10px;
+    padding: 50px;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    background-color: #71496C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projet{
+    margin-top: 20px;
+    background-color: beige;
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 5px 22px black;
+    border-radius: 10px;
+}
+.projet h3{
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    background-color: beige;
+}
+.projet{
+    cursor: pointer;
+}
+.btn_lien{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #42275a;
+    /* display: none; */
+}
+.btn_lien a{
+    text-decoration: none;
+    color: azure;
+    background-color: #42275a;
+}

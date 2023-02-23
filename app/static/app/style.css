@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right,#42275a,#734b6d);
+}
+.lien_navbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.lien_navbar div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.lien_navbar div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: bisque;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.lien :hover{
+    height: 22px;
+    font-size: 22px;
+    padding: 7px;
+    transition: 0.4s;
+}

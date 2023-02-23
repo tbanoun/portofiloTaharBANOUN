@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'app/style_projet.css' %}">
+    <h2>Mes Projets</h2>
+    <div class="projet_details">
+        {% for i in pr %}
+        <div class="projet">
+            <h3>{{ i.titre }}</h3>
+            <div class="btn_lien">
+                <a href="https://{{ i.url }}/" class="go">Visiter</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
