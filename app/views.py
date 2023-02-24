@@ -4,8 +4,7 @@ from app.models import Projet
 # Create your views here.
 
 def hello(self):
-    pro = Projet.objects.all()
-    return render(self,'app/mes_projets.html',{'pr':pro})
+    return render(self,'app/tahar.html')
 
 
 def test(self):

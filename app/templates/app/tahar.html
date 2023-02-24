@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'app/style_tahar.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Tahar-BANOUN</title>
+</head>
+<body>
+    <header class="hearder">
+        <a href="#logo" class="logo">Tahar BANOUN</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Bonjour, c'est moi</h3>
+            <h1>Tahar BANOUN</h1>
+            <h3>Je suis <span class="job">devlopeur back-end</span></h3>
+            <p>En utilisant remove.bg, vous acceptez l'utilisation de cookies. 
+                Vous trouverez des détails concernant notre utilisation des cookies dans notre
+                 Politique des cookies.
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-git' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-paypal'></i></a>
+            </div>
+            <a href="#" class="btn">Télécharger Mon CV </a>
+        </div>
+        <div class="home-img">
+            <img src="{% static 'img/tahar.png' %}" alt="image-tahar">
+        </div>
+    </section>
+
+</body>
+</html>
